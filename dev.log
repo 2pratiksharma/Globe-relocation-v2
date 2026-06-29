@@ -1,0 +1,14 @@
+
+> globalrelo@0.1.0 dev
+> next dev
+
+⚠ `images.domains` is deprecated in favor of `images.remotePatterns`. Please update next.config.ts to protect your application from malicious users.
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+
+✓ Starting...
+✓ Ready in 1080ms
+○ Compiling /contact ...
+ GET /contact 200 in 5.6s (compile: 5.5s, render: 164ms)
+⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.

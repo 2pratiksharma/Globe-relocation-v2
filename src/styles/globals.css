@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme {
+  --color-apm-blue: #00458b;
+  --color-apm-blue-dark: #002d5c;
+  --color-apm-yellow: #fca311;
+  --color-apm-yellow-hover: #e08e00;
+  --color-apm-gray: #f8f9fa;
+  --color-apm-text: #333333;
+  --color-apm-text-light: #666666;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #333333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Accordion styles */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Infinite marquee (Bangalore pricing banner) */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee-scroll 70s linear infinite;
+  will-change: transform;
+}
+
+/* Pause the scroll when the user hovers the track */
+.marquee-track:hover .animate-marquee {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .animate-marquee {
+    animation-duration: 45s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+}
+
+
+/* Radix Accordion — smooth height transitions for the booking-wizard inventory */
+@keyframes acc-slide-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+@keyframes acc-slide-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+.acc-content {
+  overflow: hidden;
+}
+.acc-content[data-state="open"] {
+  animation: acc-slide-down 0.26s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.acc-content[data-state="closed"] {
+  animation: acc-slide-up 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .acc-content[data-state="open"],
+  .acc-content[data-state="closed"] {
+    animation: none;
+  }
+}
