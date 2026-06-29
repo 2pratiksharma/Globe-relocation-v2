@@ -1471,10 +1471,10 @@ const homePageSchema = [
     priceRange: "₹₹",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Shop 430, Ravi Plot, Near City Store, 3rd Cross, Green Nandana Layout, Cheemasandra, D Avalhalli, Virgonagar",
+      streetAddress: "55, 1st Cross Rd, Prasanth Layout, Prasanth Extension, Whitefield",
       addressLocality: "Bengaluru",
       addressRegion: "Karnataka",
-      postalCode: "560049",
+      postalCode: "560066",
       addressCountry: "IN",
     },
     aggregateRating: {
@@ -1975,11 +1975,11 @@ export default function Home() {
                 </div>
 
                 <h3 className="text-3xl md:text-[2.25rem] font-extrabold text-[#001126] leading-tight">
-                  Reliable Shifting & Relocation Services by <span className="text-[#0A58CA]">Globe Relocation</span> Packers and Movers.
+                  Reliable Shifting & Relocation Services by <span className="text-[#0A58CA]">Globe Relocation</span> Packers and Movers Bangalore.
                 </h3>
 
                 <p className="text-gray-900 font-semibold text-[14px] leading-relaxed">
-                  Moving to a new home, office, or transporting vehicles can feel overwhelming. At <span className="font-bold">Globe Relocation Packers and Movers</span>, we are committed to making your relocation journey smooth, secure, and stress-free. Whether shifting locally or relocating all over India, our team handles every aspect of your move with extreme care and precision.
+                  Moving to a new home, office, or transporting vehicles can feel overwhelming. At <span className="font-bold">Globe Relocation Packers and Movers Bangalore Bangalore</span>, we are committed to making your relocation journey smooth, secure, and stress-free. Whether shifting locally or relocating all over India, our team handles every aspect of your move with extreme care and precision.
                 </p>
 
                 <p className="text-gray-500 text-[13px] leading-relaxed">

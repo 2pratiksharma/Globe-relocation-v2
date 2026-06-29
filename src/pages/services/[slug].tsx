@@ -58,7 +58,7 @@ export default function ServicePage({ service, allServices }: ServicePageProps) 
 
   const handleWhatsAppQuote = () => {
     const url = new URL("https://wa.me/917988859067");
-    const message = `Hello Globe Relocation Packers and Movers, I am interested in your ${service.title} service. Please help me with a quote.`;
+    const message = `Hello Globe Relocation Packers and Movers Banglore Banglore, I am interested in your ${service.title} service. Please help me with a quote.`;
     url.searchParams.set("text", message);
     window.open(url.toString(), "_blank");
   };
@@ -69,7 +69,7 @@ export default function ServicePage({ service, allServices }: ServicePageProps) 
   return (
     <div className="bg-[#f8f9fa] min-h-screen text-[#4a5568]">
       <Seo
-        title={`${service.title} | Globe Relocation Packers and Movers`}
+        title={`${service.title} | Globe Relocation Packers and Movers Banglore Banglore`}
         description={service.heroDescription}
         path={`/services/${service.slug}`}
         ogImage={service.imgUrl}
@@ -82,7 +82,7 @@ export default function ServicePage({ service, allServices }: ServicePageProps) 
           url: canonicalUrl,
           provider: {
             "@type": "MovingCompany",
-            name: "Globe Relocation Packers and Movers",
+            name: "Globe Relocation Packers and Movers Banglore Banglore",
             telephone: "+91 79888 59067",
             areaServed: "India",
           },

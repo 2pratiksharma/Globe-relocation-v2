@@ -13,7 +13,7 @@ const values = [
   {
     title: "Precision without compromise",
     description:
-      "Every Globe Relocation Packers and Movers move blends engineering-grade planning with human empathy—delivering peace of mind for families and enterprises."
+      "Every Globe Relocation Packers and Movers Banglore Banglore move blends engineering-grade planning with human empathy—delivering peace of mind for families and enterprises."
   },
   {
     title: "Global compliance & trust",
@@ -66,8 +66,8 @@ export default function About() {
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans overflow-x-hidden">
       <Seo
-        title="About | Globe Relocation Packers and Movers | Premium Packers & Movers India"
-        description="Learn about Globe Relocation Packers and Movers, India's premium packers and movers delivering global relocations from Bangalore, Hyderabad, and Delhi NCR."
+        title="About | Globe Relocation Packers and Movers Banglore Banglore | Premium Packers & Movers India"
+        description="Learn about Globe Relocation Packers and Movers Banglore Banglore, India's premium packers and movers delivering global relocations from Bangalore, Hyderabad, and Delhi NCR."
         path="/about"
       />
 
@@ -80,7 +80,7 @@ export default function About() {
             {/* Mobile Image */}
             <Image
               src="https://ik.imagekit.io/khibl45oa/about-hero-mobile.png"
-              alt="Globe Relocation Packers and Movers team"
+              alt="Globe Relocation Packers and Movers Banglore Banglore team"
               fill
               className="object-cover object-center lg:hidden"
               priority
@@ -89,7 +89,7 @@ export default function About() {
             {/* Desktop Image */}
             <Image
               src="https://ik.imagekit.io/khibl45oa/about-us-hero.png"
-              alt="Globe Relocation Packers and Movers team"
+              alt="Globe Relocation Packers and Movers Banglore Banglore team"
               fill
               className="hidden object-cover object-center lg:block"
               priority
@@ -262,7 +262,7 @@ export default function About() {
                   <h3 className="font-heading text-2xl font-extrabold text-[#10b981]">Our<br className="hidden md:block" />Mission</h3>
                 </div>
                 <p className="text-[15px] text-gray-600 leading-relaxed font-medium">
-                  At Globe Relocation Packers and Movers, our mission is to provide dependable relocation services that combine professionalism, efficiency, and customer care. We aim to create positive moving experiences through careful planning, quality execution, and responsive support. Our team works with dedication to ensure that every relocation project receives the attention it deserves. We believe that successful relocation is built on communication, trust, and accountability. These principles guide every aspect of our operations.
+                  At Globe Relocation Packers and Movers Banglore Banglore, our mission is to provide dependable relocation services that combine professionalism, efficiency, and customer care. We aim to create positive moving experiences through careful planning, quality execution, and responsive support. Our team works with dedication to ensure that every relocation project receives the attention it deserves. We believe that successful relocation is built on communication, trust, and accountability. These principles guide every aspect of our operations.
                 </p>
               </motion.div>
 
@@ -296,7 +296,7 @@ export default function About() {
 
               <div className="space-y-6 text-[16px] text-gray-600 leading-relaxed font-medium">
                 <motion.p {...fadeUp}>
-                  Relocation is a service where reliability matters. Over the years, Globe Relocation Packers and Movers has built long-term relationships with customers by delivering dependable moving solutions across India.
+                  Relocation is a service where reliability matters. Over the years, Globe Relocation Packers and Movers Banglore Banglore has built long-term relationships with customers by delivering dependable moving solutions across India.
                 </motion.p>
                 <motion.p {...fadeUp}>
                   One of the biggest reasons customers choose us is our experience. Having served the industry since 2018, we understand the importance of planning, coordination, and attention to detail. This knowledge allows us to manage relocations with confidence and professionalism.
@@ -305,7 +305,7 @@ export default function About() {
                   Another factor that sets us apart is our customer-centric approach. We do not view relocation as simply transporting belongings. We view it as helping people begin a new chapter in their lives. This perspective influences the way we communicate, plan, and execute every move.
                 </motion.p>
                 <motion.p {...fadeUp}>
-                  What truly distinguishes Globe Relocation Packers and Movers is the people behind the company. Our team members genuinely care about customer satisfaction and consistently work to deliver a positive experience.
+                  What truly distinguishes Globe Relocation Packers and Movers Banglore Banglore is the people behind the company. Our team members genuinely care about customer satisfaction and consistently work to deliver a positive experience.
                 </motion.p>
               </div>
             </div>
@@ -388,7 +388,7 @@ export default function About() {
 
               <div className="space-y-6 text-[16px] text-gray-600 leading-relaxed font-medium">
                 <motion.p {...fadeUp}>
-                  The success of Globe Relocation Packers and Movers is driven by a team of dedicated professionals who bring experience, skill, and enthusiasm to their work every day.
+                  The success of Globe Relocation Packers and Movers Banglore Banglore is driven by a team of dedicated professionals who bring experience, skill, and enthusiasm to their work every day.
                 </motion.p>
                 <motion.p {...fadeUp}>
                   Our staff members are known for being helpful, approachable, and committed to customer satisfaction. From the first inquiry to the completion of a move, customers receive guidance and support from professionals who understand the importance of a well-managed relocation.
@@ -412,7 +412,7 @@ export default function About() {
 
               <div className="space-y-6 text-[16px] text-gray-600 leading-relaxed font-medium mb-12">
                 <motion.p {...fadeUp}>
-                  At Globe Relocation Packers and Movers, every customer is important. We understand that relocation involves valuable belongings, important schedules, and personal expectations. That is why we approach every project with care, professionalism, and responsibility.
+                  At Globe Relocation Packers and Movers Banglore Banglore, every customer is important. We understand that relocation involves valuable belongings, important schedules, and personal expectations. That is why we approach every project with care, professionalism, and responsibility.
                 </motion.p>
                 <motion.p {...fadeUp}>
                   Our commitment extends beyond transportation. We focus on creating a positive customer experience through clear communication, reliable support, and dedicated service. Our team works diligently to maintain the standards that customers expect from one of the Best Packers and Movers in India.
@@ -444,10 +444,10 @@ export default function About() {
               <div className="relative z-10">
                 <h3 className="font-heading text-2xl md:text-[2rem] font-extrabold text-[#166534] mb-5 leading-tight">Ready to Move With Confidence?</h3>
                 <p className="text-[16px] text-[#166534] leading-relaxed mb-6 font-medium">
-                  If you are searching for trusted Packers and Movers Near Me, experienced relocation specialists, or a reliable moving company for your next move, Globe Relocation Packers and Movers is here to help. With years of experience, helpful staff, nationwide coverage, and a strong commitment to customer satisfaction, we continue to provide relocation solutions that customers can trust.
+                  If you are searching for trusted Packers and Movers Near Me, experienced relocation specialists, or a reliable moving company for your next move, Globe Relocation Packers and Movers Banglore Banglore is here to help. With years of experience, helpful staff, nationwide coverage, and a strong commitment to customer satisfaction, we continue to provide relocation solutions that customers can trust.
                 </p>
                 <p className="text-[17px] font-bold text-[#166534] leading-relaxed">
-                  Contact Globe Relocation Packers and Movers today and discover why thousands of customers choose us as their preferred relocation partner across India.
+                  Contact Globe Relocation Packers and Movers Banglore Banglore today and discover why thousands of customers choose us as their preferred relocation partner across India.
                 </p>
               </div>
             </motion.div>

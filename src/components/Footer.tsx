@@ -41,8 +41,8 @@ export default function Footer() {
           {/* Column 1 */}
           <div className="space-y-6 lg:pr-4">
             <div>
-              <Image src={'https://ik.imagekit.io/khibl45oa/Logo.png'} alt="Logo" width={220} height={60} className="object-contain w-full" />
-              <p className="text-[12px] md:text-[13px] font-medium leading-relaxed text-white mt-2">
+              <Image src={'https://ik.imagekit.io/khibl45oa/ChatGPT%20Image%20Jun%2030,%202026,%2001_18_45%20AM.png} alt="Logo" width={220} height={60} className="object-contain w-full" />
+                < p className="text-[12px] md:text-[13px] font-medium leading-relaxed text-white mt-2">
                 Safe. Secure. Sincere. Your trusted moving partner for a hassle-free relocation experience.
               </p>
             </div>
@@ -68,14 +68,14 @@ export default function Footer() {
             </div>
 
             <p className="text-[11px] leading-relaxed text-blue-100 mt-2">
-              A proud partner of <span className="font-bold text-[#fca311]">Globe Relocation Packers & Movers</span>, India's leading and most trusted relocation network with IBA approval.
+              A proud partner of <span className="font-bold text-[#fca311]">Globe Relocation Packers & Movers Banglore</span>, India's leading and most trusted relocation network with IBA approval.
             </p>
 
             <div className="bg-white text-[#1e5a22] text-[10px] font-extrabold px-3 py-2.5 rounded flex items-center gap-2 w-full">
               <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center shrink-0 border border-green-200">
                 <div className="w-2.5 h-2.5 rounded-full bg-green-500"></div>
               </div>
-              <span className="uppercase tracking-tight">Globe Relocation Packers & Movers PRIVATE LIMITED</span>
+              <span className="uppercase tracking-tight">Globe Relocation Packers & Movers Banglore PRIVATE LIMITED</span>
             </div>
           </div>
 
@@ -147,7 +147,7 @@ export default function Footer() {
                   <FaMapMarkerAlt className="text-[#fca311] text-[14px]" />
                 </div>
                 <span className="text-[12px] font-medium leading-relaxed text-white mt-1">
-                  Shop 430,Ravi Plot, Near City Store, 3rd Cross,<br />Green Nandana Layout, Cheemasandra,<br /> D Avalhalli, Virgonagar Karnataka, 560049.
+                  55, 1st Cross Rd, Prasanth Layout,<br /> Prasanth Extension, Whitefield,<br /> Bengaluru, Karnataka 560066
                 </span>
 
               </li>
@@ -173,7 +173,7 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between w-full">
               <div className="text-left">
                 <p className="text-[11px] font-medium text-white leading-relaxed">
-                  © 2026 Globe Relocation Packers & Movers Pvt. Ltd.<br />All Rights Reserved.
+                  © 2026 Globe Relocation Packers & Movers Banglore Pvt. Ltd.<br />All Rights Reserved.
                 </p>
               </div>
               <div className="flex flex-wrap gap-4 text-[11px] font-medium text-white mt-4 md:mt-0">

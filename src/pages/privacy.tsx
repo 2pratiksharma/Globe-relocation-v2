@@ -10,8 +10,8 @@ export default function PrivacyPolicy() {
   return (
     <div className="page-gradient min-h-screen text-secondary">
       <Seo
-        title="Privacy Policy | Globe Relocation Packers and Movers"
-        description="Privacy Policy for Globe Relocation Packers and Movers. Learn how we collect, use, and protect your personal information."
+        title="Privacy Policy | Globe Relocation Packers and Movers Banglore Banglore"
+        description="Privacy Policy for Globe Relocation Packers and Movers Banglore Banglore. Learn how we collect, use, and protect your personal information."
         path="/privacy"
       />
 
@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
               <section>
                 <h2 className="text-2xl font-heading text-primary mb-4">1. Introduction</h2>
                 <p>
-                  At Globe Relocation Packers and Movers (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website https://globerelo.in or use our relocation services.
+                  At Globe Relocation Packers and Movers Banglore Banglore (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website https://globerelo.in or use our relocation services.
                 </p>
               </section>
 
@@ -100,7 +100,7 @@ export default function PrivacyPolicy() {
                   If you have any questions or concerns about this Privacy Policy, please contact us at:
                 </p>
                 <div className="mt-4 p-6 rounded-2xl border border-[rgba(0, 0, 0, 0.08)] bg-[rgba(255, 255, 255, 0.6)]">
-                  <p className="font-heading text-primary">Globe Relocation Packers and Movers</p>
+                  <p className="font-heading text-primary">Globe Relocation Packers and Movers Banglore Banglore</p>
                   <p>Email: info@globerelo.in</p>
                   <p>Phone: +91 79888 59067</p>
                   <p>Address: Bangalore, Karnataka, India</p>

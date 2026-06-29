@@ -116,12 +116,12 @@ export const LOCATIONS: Record<string, CityLocation> = {
         slug: "hyderabad",
         name: "Hyderabad",
         state: "Telangana",
-        metaTitle: "Packers and Movers in Hyderabad | Globe Relocation Packers and Movers - Starting ₹2999",
+        metaTitle: "Packers and Movers in Hyderabad | Globe Relocation Packers and Movers Banglore Banglore - Starting ₹2999",
         metaDescription:
             "Trusted packers and movers in Hyderabad. Professional relocation services across all areas of Hyderabad and Secunderabad. Safe, insured moving starting at ₹2999. Get instant quote.",
         heroTitle: "Premium Packers and Movers in Hyderabad",
         heroDescription:
-            "Globe Relocation Packers and Movers brings world-class relocation expertise to Hyderabad. From Hitech City to Banjara Hills, Gachibowli to Secunderabad, we handle household moves, corporate relocations, and international shipping with precision. Our certified teams use premium packing materials and real-time tracking to ensure stress-free moves starting at ₹2999.",
+            "Globe Relocation Packers and Movers Banglore Banglore brings world-class relocation expertise to Hyderabad. From Hitech City to Banjara Hills, Gachibowli to Secunderabad, we handle household moves, corporate relocations, and international shipping with precision. Our certified teams use premium packing materials and real-time tracking to ensure stress-free moves starting at ₹2999.",
         priceStarting: "₹2999",
         phoneNumber: "+917988859067",
         coordinates: {
@@ -191,12 +191,12 @@ export const LOCATIONS: Record<string, CityLocation> = {
         slug: "delhi-ncr",
         name: "Delhi NCR",
         state: "Delhi",
-        metaTitle: "Packers and Movers in Delhi NCR | Globe Relocation Packers and Movers - Starting ₹2999",
+        metaTitle: "Packers and Movers in Delhi NCR | Globe Relocation Packers and Movers Banglore Banglore - Starting ₹2999",
         metaDescription:
             "Professional packers and movers in Delhi, Gurgaon, Noida, Faridabad, and Ghaziabad. Trusted relocation services across NCR. Safe, insured shifting starting at ₹2999. Get instant quote.",
         heroTitle: "Premium Packers and Movers in Delhi NCR",
         heroDescription:
-            "Globe Relocation Packers and Movers offers comprehensive moving solutions across Delhi NCR—from Connaught Place to Cyber City Gurgaon, Dwarka to Noida Expressway. Our expert teams handle residential moves, corporate relocations, and international shipping with military precision. With bonded warehouses, climate-controlled transport, and 24/7 tracking, your move is in safe hands. Pricing starts at ₹2999.",
+            "Globe Relocation Packers and Movers Banglore Banglore offers comprehensive moving solutions across Delhi NCR—from Connaught Place to Cyber City Gurgaon, Dwarka to Noida Expressway. Our expert teams handle residential moves, corporate relocations, and international shipping with military precision. With bonded warehouses, climate-controlled transport, and 24/7 tracking, your move is in safe hands. Pricing starts at ₹2999.",
         priceStarting: "₹2999",
         phoneNumber: "+917988859067",
         coordinates: {
@@ -272,12 +272,12 @@ export const LOCATIONS: Record<string, CityLocation> = {
         slug: "kolar",
         name: "Kolar",
         state: "Karnataka",
-        metaTitle: "Packers and Movers in Kolar | Globe Relocation Packers and Movers - Starting ₹2999",
+        metaTitle: "Packers and Movers in Kolar | Globe Relocation Packers and Movers Banglore Banglore - Starting ₹2999",
         metaDescription:
             "Professional packers and movers in Kolar. Trusted relocation services across all areas of Kolar and KGF. Safe, insured, and affordable shifting starting at ₹2999. Get instant WhatsApp quote.",
         heroTitle: "Premium Packers and Movers in Kolar",
         heroDescription:
-            "Globe Relocation Packers and Movers provides reliable and professional relocation services in Kolar. Whether you are moving within Kolar city, relocating to Kolar Gold Fields (KGF), or moving to other parts of Karnataka, our expert team ensures your belongings are handled with care. Transparent pricing starts at just ₹2999.",
+            "Globe Relocation Packers and Movers Banglore Banglore provides reliable and professional relocation services in Kolar. Whether you are moving within Kolar city, relocating to Kolar Gold Fields (KGF), or moving to other parts of Karnataka, our expert team ensures your belongings are handled with care. Transparent pricing starts at just ₹2999.",
         priceStarting: "₹2999",
         phoneNumber: "+917988859067",
         coordinates: {
@@ -334,10 +334,10 @@ const createCity = (
         slug,
         name,
         state,
-        metaTitle: `Packers and Movers in ${name} | Globe Relocation Packers and Movers - Starting ₹2999`,
+        metaTitle: `Packers and Movers in ${name} | Globe Relocation Packers and Movers Banglore Banglore - Starting ₹2999`,
         metaDescription: `Trusted packers and movers in ${name}, ${state}. Professional house shifting, office relocation, and vehicle transport with safe packing, insured transit, and on-time delivery. Get an instant quote starting at ₹2999.`,
         heroTitle: `Best Packers and Movers in ${name}`,
-        heroDescription: `Globe Relocation Packers and Movers delivers reliable, stress-free relocation across ${name}, ${state}. From household shifting and office relocation to car and bike transportation, our trained crew handles every move with premium packing, GPS-tracked transit, and transparent pricing starting at just ₹2999.`,
+        heroDescription: `Globe Relocation Packers and Movers Banglore Banglore delivers reliable, stress-free relocation across ${name}, ${state}. From household shifting and office relocation to car and bike transportation, our trained crew handles every move with premium packing, GPS-tracked transit, and transparent pricing starting at just ₹2999.`,
         priceStarting: "₹2999",
         phoneNumber: "+917988859067",
         coordinates,

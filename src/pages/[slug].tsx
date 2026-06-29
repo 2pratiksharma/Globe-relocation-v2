@@ -140,7 +140,7 @@ function HeroSection({ badge, h1, description, priceStarting, waMessage, default
                         const toCity = formData.get("toCity")?.toString() ?? "";
 
                         const base = new URL("https://wa.me/917988859067");
-                        const message = `Hello Globe relocation packers and movers, I need a quote for shifting.\n\n👤 Name: ${name}\n📞 Phone: ${phone}\n✉️ Email: ${email}\n📍 From: ${fromCity}\n📍 To: ${toCity}\n📦 Type: ${service}\n\nPlease help me plan my move.`;
+                        const message = `Hello Globe Relocation Packers and Movers Banglore Banglore, I need a quote for shifting.\n\n👤 Name: ${name}\n📞 Phone: ${phone}\n✉️ Email: ${email}\n📍 From: ${fromCity}\n📍 To: ${toCity}\n📦 Type: ${service}\n\nPlease help me plan my move.`;
                         base.searchParams.set("text", message);
                         window.open(base.toString(), "_blank");
                     }}>
@@ -323,7 +323,7 @@ function CityPage({ city }: { city: CityLocation }) {
 
     const cityUrl = getCityUrl(city.slug);
     const canonicalUrl = `https://globerelo.in${cityUrl}`;
-    const waMessage = `Hello Globe Relocation Packers and Movers, I need a quote for shifting in ${city.name}, ${city.state}. Please help me plan my move.`;
+    const waMessage = `Hello Globe Relocation Packers and Movers Banglore Banglore, I need a quote for shifting in ${city.name}, ${city.state}. Please help me plan my move.`;
 
     const intro = getCityIntro(city.name);
     const reviews = getCityReviews(city.name);
@@ -382,7 +382,7 @@ function CityPage({ city }: { city: CityLocation }) {
                         "@context": "https://schema.org",
                         "@type": "LocalBusiness",
                         "@id": canonicalUrl,
-                        name: `Globe Relocation Packers and Movers - ${city.name}`,
+                        name: `Globe Relocation Packers and Movers Banglore Banglore - ${city.name}`,
                         description: city.metaDescription,
                         url: canonicalUrl,
                         telephone: city.phoneNumber,
@@ -1069,7 +1069,7 @@ function CityPage({ city }: { city: CityLocation }) {
 function LocalityPage({ city, locality, content }: { city: CityLocation; locality: SubLocation; content: LocalityContent; urlSlug: string }) {
     const metadata = generateLocalityMetadata(city.name, city.slug, locality.name, locality.slug, city.state, city.phoneNumber);
 
-    const waMessage = `Hello Globe Relocation Packers and Movers, I need a quote for shifting in ${locality.name}, ${city.name}. Please help me plan my move.`;
+    const waMessage = `Hello Globe Relocation Packers and Movers Banglore Banglore, I need a quote for shifting in ${locality.name}, ${city.name}. Please help me plan my move.`;
     const canonicalUrl = `https://globerelo.in${getLocalityUrl(city.slug, locality.slug)}`;
     const cityPageUrl = getCityUrl(city.slug);
     const photos = getCityPhotos(locality.name, locality.slug);

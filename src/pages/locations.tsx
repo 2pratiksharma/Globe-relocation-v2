@@ -73,8 +73,8 @@ export default function LocationsPage() {
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans overflow-x-hidden">
       <Seo
-        title="Our Locations | Globe Relocation Packers and Movers - 40+ Cities Across India"
-        description="Globe Relocation Packers and Movers operates across 40+ major cities in India. Find packers and movers near you in Bangalore, Hyderabad, Delhi NCR, Mumbai, Chennai, and more."
+        title="Our Locations | Globe Relocation Packers and Movers Banglore Banglore - 40+ Cities Across India"
+        description="Globe Relocation Packers and Movers Banglore Banglore operates across 40+ major cities in India. Find packers and movers near you in Bangalore, Hyderabad, Delhi NCR, Mumbai, Chennai, and more."
         path="/locations"
       />
 
@@ -110,7 +110,7 @@ export default function LocationsPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.75, delay: 0.15, ease: easeStandard }}
             >
-              Globe Relocation Packers and Movers — delivering trusted relocation services across {totalCities}+ cities and {totalLocalities}+ localities in {totalStates} states.
+              Globe Relocation Packers and Movers Banglore Banglore — delivering trusted relocation services across {totalCities}+ cities and {totalLocalities}+ localities in {totalStates} states.
             </motion.p>
 
             {/* Breadcrumb */}

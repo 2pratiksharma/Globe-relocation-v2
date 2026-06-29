@@ -5,7 +5,7 @@
 
 export const COMPANY = {
     // ─── Legal / Registration ───
-    name: "Globe Relocation Packers & Movers Pvt. Ltd.",
+    name: "Globe Relocation Packers & Movers Banglore Pvt. Ltd.",
     shortName: "Globe Relocation",
     gstNumber: "29NXWPAS6709G2Z6",           // TODO: Replace with actual GST
     cinNumber: "U74999KA2024PTC000000",     // TODO: Replace with actual CIN
@@ -30,12 +30,12 @@ export const COMPANY = {
 
     // ─── Address ───
     address: {
-        line1: "Shop 430, Ravi Plot, Near City Store, 3rd Cross",
-        line2: "Green Nandana Layout, Cheemasandra",
-        line3: "D Avalhalli, Virgonagar",
+        line1: "55, 1st Cross Rd, Prasanth Layout",
+        line2: "Prasanth Extension, Whitefield",
+        line3: "Bengaluru",
         city: "Bangalore",
         state: "Karnataka",
-        pincode: "560049",
+        pincode: "560066",
         country: "India",
     },
 

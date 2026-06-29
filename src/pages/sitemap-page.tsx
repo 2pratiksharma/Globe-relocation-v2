@@ -63,7 +63,7 @@ export default function HtmlSitemap() {
     return (
         <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans overflow-x-hidden">
             <Seo
-                title="Sitemap | Globe Relocation Packers and Movers"
+                title="Sitemap | Globe Relocation Packers and Movers Banglore Banglore"
                 description="Browse the complete sitemap of Globe Relocation — find all service pages, city pages, blog articles, and important links in one place."
                 path="/sitemap-page"
             />

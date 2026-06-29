@@ -9,7 +9,7 @@ const easeStandard = [0.22, 0.61, 0.36, 1] as const;
 
 const contactFAQs = [
   {
-    question: "How quickly can Globe Relocation Packers and Movers schedule a move in Bangalore?",
+    question: "How quickly can Globe Relocation Packers and Movers Banglore Banglore schedule a move in Bangalore?",
     answer:
       "Our move architects can dispatch survey teams within 2 hours inside Bangalore city limits and lock in packing teams within 24 hours for urgent moves."
   },
@@ -42,7 +42,7 @@ export default function Contact() {
     const details = formData.get("details")?.toString() ?? "";
 
     const url = new URL("https://wa.me/917988859067");
-    const message = `Hello Globe Relocation Packers and Movers, I need a quote for shifting. Here are my details: Name: ${name}, Moving From: ${moveFrom}, Moving To: ${moveTo}, Preferred Date: ${moveDate}, Additional Details: ${details}`;
+    const message = `Hello Globe Relocation Packers and Movers Banglore Banglore, I need a quote for shifting. Here are my details: Name: ${name}, Moving From: ${moveFrom}, Moving To: ${moveTo}, Preferred Date: ${moveDate}, Additional Details: ${details}`;
     url.searchParams.set("text", message);
     window.open(url.toString(), "_blank");
   };
@@ -50,8 +50,8 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans overflow-x-hidden">
       <Seo
-        title="Contact | Globe Relocation Packers and Movers | Packers & Movers India to Global"
-        description="Connect with Globe Relocation Packers and Movers for premium packers and movers in Bangalore, Hyderabad, and Delhi NCR. Start your WhatsApp relocation quote today."
+        title="Contact | Globe Relocation Packers and Movers Banglore Banglore | Packers & Movers India to Global"
+        description="Connect with Globe Relocation Packers and Movers Banglore Banglore for premium packers and movers in Bangalore, Hyderabad, and Delhi NCR. Start your WhatsApp relocation quote today."
         path="/contact"
       />
 
@@ -61,7 +61,7 @@ export default function Contact() {
         {/* HERO SECTION */}
         <section className="relative overflow-hidden min-h-[55vh] flex items-center pt-20 pb-12 md:pt-24 md:pb-16 bg-[#001126]">
           <div className="absolute inset-0">
-            <Image src="/img/61765.jpg" alt="Contact Globe Relocation Packers and Movers" fill className="object-cover object-center opacity-30" priority />
+            <Image src="/img/61765.jpg" alt="Contact Globe Relocation Packers and Movers Banglore Banglore" fill className="object-cover object-center opacity-30" priority />
             <div className="absolute inset-0 bg-gradient-to-t from-[#001126] via-[#001126]/80 to-transparent" />
           </div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 w-full text-center">
@@ -110,25 +110,10 @@ export default function Contact() {
                 <h2 className="font-heading text-2xl font-extrabold text-[#001126] mb-8">Relocation command centers</h2>
                 <div className="space-y-8 text-[15px] text-gray-600">
                   <div className="relative pl-6 border-l-2 border-[#0A58CA]/20 hover:border-[#0A58CA] transition-colors">
-                    <p className="text-[#0A58CA] font-heading font-bold text-lg mb-1">Bangalore HQ</p>
-                    <p className="mb-2">Shop 430, Ravi Plot, Near City Store, 3rd Cross, Green Nandana Layout, Cheemasandra, D Avalhalli, Virgonagar, Karnataka, 560049.</p>
+                    <p className="text-[#0A58CA] font-heading font-bold text-lg mb-1">Head Office</p>
+                    <p className="mb-2">55, 1st Cross Rd, Prasanth Layout, Prasanth Extension, Whitefield, Bengaluru, Karnataka 560066</p>
                     <p className="font-medium text-[#001126]">Primary: +91 79888 59067</p>
                     <p className="font-medium text-[#001126]">Secondary: +91 72399 47013</p>
-                  </div>
-                  <div className="relative pl-6 border-l-2 border-[#0A58CA]/20 hover:border-[#0A58CA] transition-colors">
-                    <p className="text-[#0A58CA] font-heading font-bold text-lg mb-1">Devanahalli Branch</p>
-                    <p className="mb-2">40/1 Orchid Park Layout 42 Rayasandra Gate Sulibele Road Devanahalli Southegowdanahalli, Boodihal, Karnataka Bengaluru, Karnataka 562110</p>
-                    <p className="font-medium text-[#001126]">Primary: +91 79888 59067</p>
-                  </div>
-                  <div className="relative pl-6 border-l-2 border-[#0A58CA]/20 hover:border-[#0A58CA] transition-colors">
-                    <p className="text-[#0A58CA] font-heading font-bold text-lg mb-1">Hoodi Branch</p>
-                    <p className="mb-2">No 37 Hoodi Industrial Area 6th Cross, Hoodi Main Rd, Bengaluru, Karnataka 560048</p>
-                    <p className="font-medium text-[#001126]">Primary: +91 79888 59067</p>
-                  </div>
-                  <div className="relative pl-6 border-l-2 border-[#0A58CA]/20 hover:border-[#0A58CA] transition-colors">
-                    <p className="text-[#0A58CA] font-heading font-bold text-lg mb-1">Bellandur Branch</p>
-                    <p className="mb-2">WM9C5RC, Sarjapur - Marathahalli Rd, Bellandur, Bengaluru, Karnataka 560035</p>
-                    <p className="font-medium text-[#001126]">Primary: +91 79888 59067</p>
                   </div>
                 </div>
                 <div className="mt-8 pt-6 border-t border-gray-100">

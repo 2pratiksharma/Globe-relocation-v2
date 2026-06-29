@@ -10,8 +10,8 @@ export default function TermsAndConditions() {
   return (
     <div className="page-gradient min-h-screen text-secondary">
       <Seo
-        title="Terms & Conditions | Globe Relocation Packers and Movers"
-        description="Terms and Conditions for Globe Relocation Packers and Movers. Read our service agreement, booking policies, and liability terms."
+        title="Terms & Conditions | Globe Relocation Packers and Movers Banglore Banglore"
+        description="Terms and Conditions for Globe Relocation Packers and Movers Banglore Banglore. Read our service agreement, booking policies, and liability terms."
         path="/terms"
       />
 
@@ -31,14 +31,14 @@ export default function TermsAndConditions() {
               <section>
                 <h2 className="text-2xl font-heading text-primary mb-4">1. Acceptance of Terms</h2>
                 <p>
-                  By accessing our website https://globerelo.in and using the services of Globe Relocation Packers and Movers, you agree to comply with and be bound by these Terms & Conditions. If you do not agree with any part of these terms, please refrain from using our services.
+                  By accessing our website https://globerelo.in and using the services of Globe Relocation Packers and Movers Banglore Banglore, you agree to comply with and be bound by these Terms & Conditions. If you do not agree with any part of these terms, please refrain from using our services.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-heading text-primary mb-4">2. Services Offered</h2>
                 <p>
-                  Globe Relocation Packers and Movers provides professional packing, loading, transportation, unloading, and unpacking services for household shifting, office relocation, and international moves. We also offer specialized services like vehicle transportation and bonded storage.
+                  Globe Relocation Packers and Movers Banglore Banglore provides professional packing, loading, transportation, unloading, and unpacking services for household shifting, office relocation, and international moves. We also offer specialized services like vehicle transportation and bonded storage.
                 </p>
               </section>
 
@@ -77,7 +77,7 @@ export default function TermsAndConditions() {
               <section>
                 <h2 className="text-2xl font-heading text-primary mb-4">6. Limitation of Liability</h2>
                 <p>
-                  While we take every precaution to ensure the safety of your goods, Globe Relocation Packers and Movers shall not be liable for any indirect, incidental, or consequential damages. Our liability for any loss or damage is limited to the terms specified in the service contract and the insurance coverage opted by the customer.
+                  While we take every precaution to ensure the safety of your goods, Globe Relocation Packers and Movers Banglore Banglore shall not be liable for any indirect, incidental, or consequential damages. Our liability for any loss or damage is limited to the terms specified in the service contract and the insurance coverage opted by the customer.
                 </p>
               </section>
 
@@ -94,7 +94,7 @@ export default function TermsAndConditions() {
                   For any clarifications regarding these Terms & Conditions, please reach out to us:
                 </p>
                 <div className="mt-4 p-6 rounded-2xl border border-[rgba(0, 0, 0, 0.08)] bg-[rgba(255, 255, 255, 0.6)]">
-                  <p className="font-heading text-primary">Globe Relocation Packers and Movers</p>
+                  <p className="font-heading text-primary">Globe Relocation Packers and Movers Banglore Banglore</p>
                   <p>Email: info@globerelo.in</p>
                   <p>Phone: +91 79888 59067</p>
                   <p>Address: Bangalore, Karnataka, India</p>

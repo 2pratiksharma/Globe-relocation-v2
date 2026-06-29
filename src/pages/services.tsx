@@ -40,8 +40,8 @@ export default function Services() {
   return (
     <div className="page-gradient min-h-screen text-secondary">
       <Seo
-        title="Services | Globe Relocation Packers and Movers | Packers and Movers India to Global"
-        description="Discover Globe Relocation Packers and Movers' premium packers and movers offerings in Bangalore, Hyderabad, Delhi NCR, and global relocation services."
+        title="Services | Globe Relocation Packers and Movers Banglore Banglore | Packers and Movers India to Global"
+        description="Discover Globe Relocation Packers and Movers Banglore Banglore' premium packers and movers offerings in Bangalore, Hyderabad, Delhi NCR, and global relocation services."
         path="/services"
       />
 
@@ -55,9 +55,9 @@ export default function Services() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10 w-full flex-grow flex flex-col justify-center">
             {/* Hero Text */}
             <div className="text-white space-y-4 max-w-3xl mb-8 pt-8">
-              <motion.span 
+              <motion.span
                 className="inline-block text-[#58a6ff] font-bold text-sm tracking-widest uppercase"
-                initial={{ opacity: 0, y: -10 }} 
+                initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
               >
                 Global relocation suite
@@ -75,14 +75,14 @@ export default function Services() {
                 {...fadeUp}
                 transition={{ delay: 0.2, duration: 0.65, ease: easeStandard }}
               >
-                Globe Relocation Packers and Movers delivers specialized moving programs for households, enterprises, and expatriates. From precision packing to bonded storage, every move is engineered to perform flawlessly.
+                Globe Relocation Packers and Movers Banglore Banglore delivers specialized moving programs for households, enterprises, and expatriates. From precision packing to bonded storage, every move is engineered to perform flawlessly.
               </motion.p>
             </div>
 
             {/* CTA Buttons in a Glassmorphism Container to mimic index.tsx form vibe */}
-            <motion.div 
-              className="mt-6 flex flex-col sm:flex-row gap-4 bg-[#001126]/40 backdrop-blur-xl border border-white/10 rounded-[1.5rem] p-6 lg:p-8 shadow-2xl w-fit" 
-              {...fadeUp} 
+            <motion.div
+              className="mt-6 flex flex-col sm:flex-row gap-4 bg-[#001126]/40 backdrop-blur-xl border border-white/10 rounded-[1.5rem] p-6 lg:p-8 shadow-2xl w-fit"
+              {...fadeUp}
               transition={{ delay: 0.35, ease: easeStandard }}
             >
               <Link href="/quote" className="bg-[#0A58CA] hover:bg-[#004bb5] text-white font-bold py-3.5 px-8 rounded-lg transition-colors duration-300 text-sm md:text-[15px] whitespace-nowrap flex items-center justify-center gap-2 shadow-lg shadow-[#0A58CA]/30">
@@ -114,20 +114,20 @@ export default function Services() {
                 <p className="mt-5 text-gray-600 text-[15px] md:text-base leading-relaxed">
                   Strategic command centers in Bangalore, Hyderabad, and Delhi NCR ensure rapid deployments, consistent crew training, and relentless customer updates. Each move is managed by relocation strategists who speak the language of international compliance and local precision.
                 </p>
-                
+
                 <div className="mt-10 flex flex-col gap-5">
                   {cityFocus.map((city) => (
                     <Link key={city.title} href={city.link} className="group relative bg-white rounded-2xl p-6 md:p-7 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] hover:shadow-[0_8px_30px_-4px_rgba(10,88,202,0.12)] transition-all duration-300 border border-gray-100 hover:border-[#0A58CA]/30 flex items-start gap-5 overflow-hidden">
                       {/* Hover subtle background slide */}
                       <div className="absolute inset-0 bg-gradient-to-r from-blue-50/50 to-transparent translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500 ease-out" />
-                      
+
                       <div className="relative w-12 h-12 shrink-0 bg-[#0A58CA]/10 group-hover:bg-[#0A58CA] rounded-xl flex items-center justify-center transition-colors duration-300">
                         <svg className="w-6 h-6 text-[#0A58CA] group-hover:text-white transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z" />
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
                       </div>
-                      
+
                       <div className="relative flex-grow">
                         <h3 className="font-heading text-lg font-extrabold text-[#001126] group-hover:text-[#0A58CA] transition-colors">{city.title}</h3>
                         <p className="mt-1.5 text-[14px] text-gray-500 leading-relaxed pr-2">{city.description}</p>
@@ -149,7 +149,7 @@ export default function Services() {
               <motion.div {...fadeUp} className="relative mt-12 lg:mt-0 lg:h-full">
                 <div className="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-[#0A58CA]/10 border border-white aspect-[4/5] lg:aspect-auto lg:h-full min-h-[400px] w-full group bg-gray-100">
                   <Image src="/img/move.jpg" alt="Relocation operations" fill className="object-cover transition-transform duration-700 group-hover:scale-[1.03]" />
-                  
+
                   {/* Inner subtle gradient to ensure text readability if needed */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60 pointer-events-none" />
 
@@ -220,7 +220,7 @@ export default function Services() {
 
         <section className="relative py-24 bg-white overflow-hidden">
           <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
-          
+
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
             <div className="grid gap-16 lg:grid-cols-[1.1fr_0.9fr] items-start">
               <motion.div {...fadeUp}>
@@ -228,12 +228,12 @@ export default function Services() {
                   Workflow
                 </div>
                 <h2 className="font-heading text-3xl md:text-[2.5rem] font-extrabold text-[#001126] leading-[1.2] tracking-tight">
-                  How Globe Relocation Packers and Movers delivers frictionless moves
+                  How Globe Relocation Packers and Movers Banglore Banglore delivers frictionless moves
                 </h2>
                 <p className="mt-5 text-gray-600 text-[15px] md:text-base leading-relaxed max-w-xl">
                   Our signature three-phase methodology ensures every relocation—domestic or international—operates on precision timelines while keeping your belongings insured and monitored at all times.
                 </p>
-                
+
                 <div className="mt-12 space-y-6">
                   {[
                     {
@@ -267,7 +267,7 @@ export default function Services() {
                   {/* Decorative background blobs for the dark card */}
                   <div className="absolute top-0 right-0 w-64 h-64 bg-[#0A58CA] rounded-full filter blur-[80px] opacity-40 translate-x-1/3 -translate-y-1/3"></div>
                   <div className="absolute bottom-0 left-0 w-48 h-48 bg-[#58a6ff] rounded-full filter blur-[60px] opacity-20 -translate-x-1/3 translate-y-1/3"></div>
-                  
+
                   <div className="relative z-10">
                     <h3 className="font-heading text-2xl md:text-[28px] font-extrabold leading-[1.2]">Technology + Human excellence</h3>
                     <p className="mt-4 text-gray-300 text-[15px] leading-relaxed">
@@ -308,13 +308,13 @@ export default function Services() {
               <div className="absolute inset-0 overflow-hidden rounded-[3rem]">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#0A58CA] blur-[120px] opacity-40 rounded-full pointer-events-none"></div>
               </div>
-              
+
               <div className="relative z-10">
                 <motion.div className="inline-block px-4 py-1.5 rounded-full bg-white/10 text-[#58a6ff] font-bold text-[11px] md:text-xs uppercase tracking-widest mb-6 border border-white/20 backdrop-blur-md" {...fadeUp}>
                   Ready to relocate?
                 </motion.div>
                 <motion.h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-white font-extrabold leading-tight tracking-tight" {...fadeUp} transition={{ delay: 0.15, ease: easeStandard }}>
-                  Speak with Globe Relocation <br className="hidden md:block"/> strategists today
+                  Speak with Globe Relocation <br className="hidden md:block" /> strategists today
                 </motion.h2>
                 <motion.p className="mt-6 text-gray-300 text-[15px] md:text-lg max-w-2xl mx-auto leading-relaxed" {...fadeUp} transition={{ delay: 0.25, ease: easeStandard }}>
                   Share your India-to-global move or city relocation requirements. Our WhatsApp concierge responds within minutes with a personalized roadmap and transparent pricing that starts at ₹2999 only.

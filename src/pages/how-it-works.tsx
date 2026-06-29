@@ -13,19 +13,19 @@ const process = [
     phase: "Discover",
     title: "Precision survey & move intelligence",
     description:
-      "Virtual or on-site walkthrough across Bangalore, Hyderabad, Delhi NCR, and any Indian city. We map inventory, compliance needs, freight lanes, and insurance coverage for domestic and global moves." 
+      "Virtual or on-site walkthrough across Bangalore, Hyderabad, Delhi NCR, and any Indian city. We map inventory, compliance needs, freight lanes, and insurance coverage for domestic and global moves."
   },
   {
     phase: "Design",
     title: "Blueprint tailored for every kilometer",
     description:
-      "Our relocation architects craft multi-route plans, access strategies, and contingency playbooks. Every quote includes transparent pricing starting at ₹2999, marine insurance options, and IoT tracking setups." 
+      "Our relocation architects craft multi-route plans, access strategies, and contingency playbooks. Every quote includes transparent pricing starting at ₹2999, marine insurance options, and IoT tracking setups."
   },
   {
     phase: "Deliver",
     title: "Execute with concierge-level support",
     description:
-      "Certified crews, bonded storage, and destination teams ensure flawless execution—from Bangalore apartments to Hyderabad data centers and Delhi NCR villas relocating worldwide." 
+      "Certified crews, bonded storage, and destination teams ensure flawless execution—from Bangalore apartments to Hyderabad data centers and Delhi NCR villas relocating worldwide."
   }
 ];
 
@@ -67,12 +67,12 @@ export default function HowItWorks() {
   return (
     <div className="page-gradient min-h-screen text-secondary">
       <Seo
-        title="How It Works | Globe Relocation Packers and Movers | Premium Moving Process"
-        description="Discover Globe Relocation Packers and Movers' premium moving process for packers and movers in Bangalore, Hyderabad, Delhi NCR, and global relocations."
+        title="How It Works | Globe Relocation Packers and Movers Banglore Banglore | Premium Moving Process"
+        description="Discover Globe Relocation Packers and Movers Banglore Banglore' premium moving process for packers and movers in Bangalore, Hyderabad, Delhi NCR, and global relocations."
         path="/how-it-works"
       />
 
-<Navbar />
+      <Navbar />
 
       <main>
         <section className="relative overflow-hidden">
@@ -90,7 +90,7 @@ export default function HowItWorks() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.75, ease: easeStandard }}
             >
-              How Globe Relocation Packers and Movers orchestrates every move
+              How Globe Relocation Packers and Movers Banglore Banglore orchestrates every move
             </motion.h1>
             <motion.p
               className="mt-6 max-w-3xl mx-auto text-secondary"
@@ -101,8 +101,8 @@ export default function HowItWorks() {
               From Bangalore tech hubs to Hyderabad’s financial corridor and Delhi NCR’s global neighborhoods, our relocation architects blend human
               expertise with technology to move you across India and the world—stress-free and insured.
             </motion.p>
-        </div>
-      </section>
+          </div>
+        </section>
 
         <section className="relative py-20">
           <div className="absolute inset-0 bg-[rgba(255, 255, 255, 0.82)]" />
@@ -113,7 +113,7 @@ export default function HowItWorks() {
                 From survey to settling in—every kilometer mapped
               </h2>
               <p className="mt-4 text-secondary">
-                Globe Relocation Packers and Movers compresses decades of moving intelligence into a simple, proven framework. Discover how we turn complex
+                Globe Relocation Packers and Movers Banglore Banglore compresses decades of moving intelligence into a simple, proven framework. Discover how we turn complex
                 relocations into curated experiences you can trust.
               </p>
               <div className="mt-8 grid gap-5">
@@ -154,9 +154,9 @@ export default function HowItWorks() {
                   <p className="mt-3 text-sm text-secondary">{item.copy}</p>
                 </motion.div>
               ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
         <section className="relative py-20">
           <div className="absolute inset-0 bg-[rgba(255, 255, 255, 0.8)]" />
@@ -176,11 +176,11 @@ export default function HowItWorks() {
                 Explore premium services
               </Link>
             </motion.div>
-        </div>
-      </section>
+          </div>
+        </section>
       </main>
 
-<Footer />
+      <Footer />
     </div>
   );
 }

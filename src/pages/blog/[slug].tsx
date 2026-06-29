@@ -51,7 +51,7 @@ export default function BlogPostPage({ post }: { post: BlogPost }) {
                     },
                     publisher: {
                         "@type": "Organization",
-                        name: "Globe Relocation Packers and Movers",
+                        name: "Globe Relocation Packers and Movers Banglore Banglore",
                         logo: { "@type": "ImageObject", url: "https://ik.imagekit.io/khibl45oa/Logo.png" },
                     },
                 }}

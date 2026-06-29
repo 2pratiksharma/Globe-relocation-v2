@@ -29,7 +29,7 @@ export default function WhatsAppButton() {
 
   const handleWhatsAppClick = () => {
     const url = new URL(`https://wa.me/${whatsappNumber}`);
-    const message = "Hello Globe Relocation Packers and Movers, I need a quote for shifting.";
+    const message = "Hello Globe Relocation Packers and Movers Banglore Banglore, I need a quote for shifting.";
     url.searchParams.set("text", message);
     window.open(url.toString(), "_blank");
   };
@@ -91,7 +91,7 @@ export default function WhatsAppButton() {
           whileTap={{ scale: 0.98 }}
           onClick={handleCallClick}
           className="rounded-2xl border border-[rgba(0, 0, 0, 0.1)] bg-[rgba(255, 255, 255, 0.9)] px-5 py-3 text-secondary backdrop-blur shadow-[0_26px_55px_-28px_rgba(10, 78, 189, 0.55)]"
-          aria-label="Call Globe Relocation Packers and Movers"
+          aria-label="Call Globe Relocation Packers and Movers Banglore Banglore"
         >
           <div className="flex items-center gap-3">
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-[rgba(0, 0, 0, 0.06)] text-accent">
@@ -108,7 +108,7 @@ export default function WhatsAppButton() {
           whileTap={{ scale: 0.98 }}
           onClick={handleWhatsAppClick}
           className="price-pulse rounded-3xl bg-gradient-to-r from-[rgba(10, 78, 189, 0.36)] via-[rgba(10, 78, 189, 0.3)] to-[rgba(10, 78, 189, 0.48)] px-6 py-3.5 text-left text-[rgba(31, 41, 55, 0.96)] shadow-[0_26px_65px_-28px_rgba(10, 78, 189, 0.75)] border border-[rgba(0, 0, 0, 0.14)] backdrop-blur"
-          aria-label="Chat on WhatsApp with Globe Relocation Packers and Movers"
+          aria-label="Chat on WhatsApp with Globe Relocation Packers and Movers Banglore Banglore"
         >
           <div className="flex items-center gap-4">
             <span className="grid h-10 w-10 place-items-center rounded-2xl bg-[rgba(0, 0, 0, 0.2)] text-[rgba(255, 255, 255, 0.92)]">

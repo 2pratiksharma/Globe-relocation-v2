@@ -12,7 +12,7 @@ export default function Disclaimer() {
     return (
         <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans overflow-x-hidden">
             <Seo
-                title="Disclaimer | Globe Relocation Packers and Movers"
+                title="Disclaimer | Globe Relocation Packers and Movers Banglore Banglore"
                 description="Read Globe Relocation's disclaimer regarding pricing estimates, liability limitations, trademark usage, and third-party links. Transparency is our priority."
                 path="/disclaimer"
             />

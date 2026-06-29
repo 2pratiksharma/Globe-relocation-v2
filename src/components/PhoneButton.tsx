@@ -36,7 +36,7 @@ export default function PhoneButton({ number = "+917988859067", className = "" }
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 0.97 }}
           onClick={() => window.open(`tel:${number}`)}
-          aria-label="Call Globe Relocation Packers and Movers"
+          aria-label="Call Globe Relocation Packers and Movers Banglore Banglore"
           className="flex items-center gap-3 rounded-3xl bg-gradient-to-r from-[rgba(10, 78, 189, 0.22)] via-[rgba(10, 78, 189, 0.18)] to-[rgba(10, 78, 189, 0.32)] px-5 py-3 text-left border border-[rgba(0, 0, 0, 0.12)] text-primary shadow-[0_28px_65px_-32px_rgba(10, 78, 189, 0.7)] backdrop-blur"
         >
           <span className="grid h-10 w-10 place-items-center rounded-2xl bg-[rgba(0, 0, 0, 0.12)] text-[rgba(255, 255, 255, 0.9)]">

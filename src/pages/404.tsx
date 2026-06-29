@@ -13,7 +13,7 @@ export default function Custom404() {
     return (
         <div className="page-gradient min-h-screen text-secondary">
             <Seo
-                title="Page Not Found | Globe Relocation Packers and Movers"
+                title="Page Not Found | Globe Relocation Packers and Movers Banglore Banglore"
                 description="The page you're looking for doesn't exist. Explore our packers and movers services in Bangalore, Hyderabad, and Delhi NCR."
                 path="/404"
                 noindex

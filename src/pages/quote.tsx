@@ -37,7 +37,7 @@ export default function QuotePage() {
 
     const url = new URL("https://wa.me/917988859067");
     const lines = [
-      "Hello Globe Relocation Packers and Movers, I need a quote for shifting.",
+      "Hello Globe Relocation Packers and Movers Banglore Banglore, I need a quote for shifting.",
       `Name: ${name}`,
       `Phone: ${phone}`,
       email ? `Email: ${email}` : "",
@@ -56,8 +56,8 @@ export default function QuotePage() {
   return (
     <div className="page-gradient min-h-screen text-secondary">
       <Seo
-        title="Get a Quote | Globe Relocation Packers and Movers | WhatsApp Moving Estimate"
-        description="Share your relocation details to receive a WhatsApp quote from Globe Relocation Packers and Movers, premium packers and movers for Bangalore, Hyderabad, Delhi NCR, and global moves."
+        title="Get a Quote | Globe Relocation Packers and Movers Banglore Banglore | WhatsApp Moving Estimate"
+        description="Share your relocation details to receive a WhatsApp quote from Globe Relocation Packers and Movers Banglore Banglore, premium packers and movers for Bangalore, Hyderabad, Delhi NCR, and global moves."
         path="/quote"
       />
 
@@ -220,7 +220,7 @@ export default function QuotePage() {
                 Send details via WhatsApp
               </button>
               <p className="text-xs text-muted text-center">
-                By submitting, you will be redirected to WhatsApp to share your move details with Globe Relocation Packers and Movers.
+                By submitting, you will be redirected to WhatsApp to share your move details with Globe Relocation Packers and Movers Banglore Banglore.
               </p>
             </motion.form>
           </div>

@@ -1,4 +1,4 @@
-# robots.txt for Globe Relocation Packers and Movers
+# robots.txt for Globe Relocation Packers and Movers Banglore
 # https://globerelo.in
 
 # Allow all crawlers

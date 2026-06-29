@@ -9,17 +9,17 @@ import { BLOG_POSTS } from "@/data/blog.data";
 const easeStandard = [0.22, 0.61, 0.36, 1] as const;
 
 const fadeUp = {
-  initial: { opacity: 0, y: 32 },
-  whileInView: { opacity: 1, y: 0, transition: { duration: 0.7, ease: easeStandard } },
-  viewport: { once: true, amount: 0.1 }
+    initial: { opacity: 0, y: 32 },
+    whileInView: { opacity: 1, y: 0, transition: { duration: 0.7, ease: easeStandard } },
+    viewport: { once: true, amount: 0.1 }
 };
 
 export default function BlogIndex() {
     return (
         <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans overflow-x-hidden">
             <Seo
-                title="Moving Guides & Tips | Globe Relocation Packers and Movers Blog"
-                description="Expert moving tips, price guides, and relocation checklists for Bangalore and across India. Stay informed with Globe Relocation Packers and Movers blog."
+                title="Moving Guides & Tips | Globe Relocation Packers and Movers Banglore Banglore Blog"
+                description="Expert moving tips, price guides, and relocation checklists for Bangalore and across India. Stay informed with Globe Relocation Packers and Movers Banglore Banglore blog."
                 path="/blog"
             />
 
@@ -32,7 +32,7 @@ export default function BlogIndex() {
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#0A58CA] blur-[120px] opacity-30 rounded-full pointer-events-none"></div>
                         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:32px_32px]"></div>
                     </div>
-                    
+
                     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 w-full text-center">
                         <motion.nav className="flex items-center justify-center gap-2 text-[13px] text-gray-400 mb-8 font-medium" initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}>
                             <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -64,7 +64,7 @@ export default function BlogIndex() {
 
                 <section className="relative py-16 md:py-24 bg-[#F8FAFC]">
                     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
-                        <motion.div 
+                        <motion.div
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true, amount: 0.1 }}
@@ -134,7 +134,7 @@ export default function BlogIndex() {
                         </motion.div>
                     </div>
                 </section>
-                
+
                 {/* CTA SECTION */}
                 <section className="relative py-12 md:py-24 bg-white">
                     <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-12">

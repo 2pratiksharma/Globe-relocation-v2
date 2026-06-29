@@ -10,7 +10,7 @@ import Head from "next/head";
 ----------------------------------------------------------------- */
 
 export const SITE_URL = "https://globerelo.in";
-export const SITE_NAME = "Globe Relocation Packers and Movers";
+export const SITE_NAME = "Globe Relocation Packers and Movers Banglore Banglore";
 const DEFAULT_OG_IMAGE = "https://ik.imagekit.io/khibl45oa/home_hero.png?tr=w-1200,h-630,fo-auto";
 
 type JsonLd = Record<string, unknown>;

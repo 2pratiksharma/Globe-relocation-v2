@@ -11,7 +11,7 @@ const easeStandard = [0.22, 0.61, 0.36, 1] as const;
 const testimonials = [
   {
     quote:
-      "Our Bangalore to Berlin relocation was orchestrated like a symphony—marked inventory, insured cargo, and White-Glove unpacking in Germany. Globe Relocation Packers and Movers redefines moving.",
+      "Our Bangalore to Berlin relocation was orchestrated like a symphony—marked inventory, insured cargo, and White-Glove unpacking in Germany. Globe Relocation Packers and Movers Banglore Banglore redefines moving.",
     name: "Rhea Mukherjee",
     title: "Head of Product, Berlin",
     city: "Bangalore → Berlin",
@@ -51,7 +51,7 @@ const testimonials = [
   },
   {
     quote:
-      "Moving from Delhi NCR to Melbourne with toddlers and pets felt effortless. Globe Relocation Packers and Movers managed visa schedules, temporary housing, and unpacked before we arrived.",
+      "Moving from Delhi NCR to Melbourne with toddlers and pets felt effortless. Globe Relocation Packers and Movers Banglore Banglore managed visa schedules, temporary housing, and unpacked before we arrived.",
     name: "Raj & Kavya",
     title: "Family of Four, Melbourne",
     city: "Delhi NCR → Melbourne",
@@ -75,14 +75,14 @@ export default function TestimonialsPage() {
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans overflow-x-hidden">
       <Seo
-        title="Testimonials | Globe Relocation Packers and Movers | Premium Packers & Movers Reviews"
-        description="Read testimonials from customers who trusted Globe Relocation Packers and Movers for packers and movers in Bangalore, Hyderabad, Delhi NCR, and global relocations."
+        title="Testimonials | Globe Relocation Packers and Movers Banglore Banglore | Premium Packers & Movers Reviews"
+        description="Read testimonials from customers who trusted Globe Relocation Packers and Movers Banglore Banglore for packers and movers in Bangalore, Hyderabad, Delhi NCR, and global relocations."
         path="/testimonials"
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "MovingCompany",
-          name: "Globe Relocation Packers and Movers",
-          description: "Globe Relocation Packers and Movers provides domestic and international packers and movers solutions spanning Bangalore, Hyderabad, Delhi NCR, and pan-India to worldwide destinations.",
+          name: "Globe Relocation Packers and Movers Banglore Banglore",
+          description: "Globe Relocation Packers and Movers Banglore Banglore provides domestic and international packers and movers solutions spanning Bangalore, Hyderabad, Delhi NCR, and pan-India to worldwide destinations.",
           url: "https://globerelo.in",
           logo: "https://globerelo.in/img/logo.jpeg",
           telephone: "+91 79888 59067",
@@ -167,7 +167,7 @@ export default function TestimonialsPage() {
                 Relocations that <span className="text-[#0A58CA]">move hearts</span>
               </motion.h2>
               <motion.p {...fadeUp} className="text-gray-500 text-lg max-w-2xl mx-auto">
-                Read what our customers have to say about their moving experiences with Globe Relocation Packers and Movers.
+                Read what our customers have to say about their moving experiences with Globe Relocation Packers and Movers Banglore Banglore.
               </motion.p>
             </div>
 

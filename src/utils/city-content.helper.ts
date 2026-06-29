@@ -60,13 +60,13 @@ export function getCityIntro(placeName: string, contextName?: string): CityIntro
     return {
         title1: `Credible Packers and Movers Companies in ${placeName}`,
         paras1: [
-            `${placeName} is a vibrant city with a unique blend of culture, industry, and growing residential demand. Students, working professionals, families, and corporate teams frequently need the best and most credible packers and movers for their shifting requirements. Globe Relocation Packers and Movers has become an outright choice for top-rated packing and moving services in ${region}. We handle professional packing and moving, efficient and timely loading and unloading, safe storage facilities in warehouses, and the shifting of homes as well as offices without any hassle.`,
+            `${placeName} is a vibrant city with a unique blend of culture, industry, and growing residential demand. Students, working professionals, families, and corporate teams frequently need the best and most credible packers and movers for their shifting requirements. Globe Relocation Packers and Movers Banglore Banglore has become an outright choice for top-rated packing and moving services in ${region}. We handle professional packing and moving, efficient and timely loading and unloading, safe storage facilities in warehouses, and the shifting of homes as well as offices without any hassle.`,
             `We offer ${placeName} car transportation, which also comprises safe and professional packing and moving services from ${placeName} to other parts of the country. We provide the best car transportation near you, transit insurance services, and IBA-approved movers and packers bills for claims. We take care of all household and domestic shifting requirements while being proud of our verified, certified, and pocket-friendly packing and moving services.`,
             `As the most trusted packers and movers company in ${placeName}, we ensure scam-free and stress-free relocations. Find top packers and movers in ${placeName} for the best packing, unpacking, and IBA-approved bills. Let us help you shift your home safely with the finest movers and packers in ${placeName}.`,
         ],
         title2: "Reliable Packing and Moving Service Across India",
         paras2: [
-            `Globe Relocation Packers and Movers offers you the best packing and moving services across India. We provide services from Vijayawada to Mumbai, Jodhpur to Hyderabad, Madurai to Kolkata, and Raipur to Ahmedabad with professional, reliable, and trustworthy packing and moving solutions. We have services that handle moves from Kota to Jaipur, Guwahati to Kanpur, Chandigarh to Bareilly, and Solapur to Bhopal.`,
+            `Globe Relocation Packers and Movers Banglore Banglore offers you the best packing and moving services across India. We provide services from Vijayawada to Mumbai, Jodhpur to Hyderabad, Madurai to Kolkata, and Raipur to Ahmedabad with professional, reliable, and trustworthy packing and moving solutions. We have services that handle moves from Kota to Jaipur, Guwahati to Kanpur, Chandigarh to Bareilly, and Solapur to Bhopal.`,
             `We have made packing and moving from Varanasi to Gwalior safe, speedy, and very affordable while ensuring everything is moved efficiently. We also have a wide range of trusted and verified packing and moving services that extend from Jabalpur to Srinagar, providing an even smoother relocation process. Choose us for a scam-free, stress-free move with certified professionals and the best packers and movers services.`,
         ],
     };
@@ -248,10 +248,10 @@ function hashString(str: string): number {
 export function getCityPhotos(cityName: string, pageSlug: string): { url: string; caption: string }[] {
     const totalImages = CUSTOMER_IMAGES.length;
     const hash = hashString(pageSlug);
-    
+
     // Step by 3 to minimize overlap between pages, ensuring 3 unique images per page
     const startIndex = (hash * 3) % totalImages;
-    
+
     const photos = [];
     const captions = [
         `Safe household packing in ${cityName}`,

@@ -21,7 +21,7 @@ export default function Document() {
             set on each page (see components/Seo.tsx) so they are never
             overridden by site-wide defaults here. */}
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <meta property="og:site_name" content="Globe Relocation Packers and Movers" />
+        <meta property="og:site_name" content="Globe Relocation Packers and Movers Banglore Banglore" />
         <meta property="og:locale" content="en_IN" />
         <meta name="google-site-verification" content="YZRfKsEpwbgTA6Kcylel1DiKD1yZrEcqlLkKOaLm5hY" />
         <script
@@ -31,9 +31,9 @@ export default function Document() {
               "@context": "https://schema.org",
               "@type": "MovingCompany",
               "@id": "https://globerelo.in/#organization",
-              name: "Globe Relocation Packers and Movers",
+              name: "Globe Relocation Packers and Movers Banglore Banglore",
               description:
-                "Globe Relocation Packers and Movers provides domestic and international packers and movers solutions spanning Bangalore, Hyderabad, Delhi NCR, and pan-India to worldwide destinations.",
+                "Globe Relocation Packers and Movers Banglore Banglore provides domestic and international packers and movers solutions spanning Bangalore, Hyderabad, Delhi NCR, and pan-India to worldwide destinations.",
               url: "https://globerelo.in",
               logo: "https://ik.imagekit.io/khibl45oa/Logo.png",
               image: "https://ik.imagekit.io/khibl45oa/home_hero.png?tr=w-1200,h-630,fo-auto",
@@ -52,10 +52,10 @@ export default function Document() {
               ],
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Shop 430, Ravi Plot, Near City Store, 3rd Cross, Green Nandana Layout, Cheemasandra, D Avalhalli, Virgonagar",
+                streetAddress: "55, 1st Cross Rd, Prasanth Layout, Prasanth Extension, Whitefield",
                 addressLocality: "Bengaluru",
                 addressRegion: "Karnataka",
-                postalCode: "560049",
+                postalCode: "560066",
                 addressCountry: "IN"
               },
               openingHours: "Mo-Fr 08:00-18:00",

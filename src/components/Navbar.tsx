@@ -54,7 +54,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0" aria-label="Go to Home">
             {/* Using the existing logo or placeholder. Adjust width/height as needed */}
-            <Image src={'https://ik.imagekit.io/khibl45oa/Logo.png'} alt="Logo" width={180} height={60} className="object-contain" />
+            <Image src={'https://ik.imagekit.io/khibl45oa/ChatGPT%20Image%20Jun%2030,%202026,%2001_18_45%20AM.png} alt="Logo" width={180} height={60} className="object-contain" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -129,8 +129,8 @@ export default function Navbar() {
             >
               {/* Sidebar Header */}
               <div className="flex items-center justify-between p-5 border-b border-gray-200">
-                <Image src={'https://ik.imagekit.io/khibl45oa/Logo.png'} alt="Logo" width={140} height={45} className="object-contain w-full" />
-                <button
+                <Image src={'https://ik.imagekit.io/khibl45oa/ChatGPT%20Image%20Jun%2030,%202026,%2001_18_45%20AM.png} alt="Logo" width={140} height={45} className="object-contain w-full" />
+                  < button
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="p-2 text-gray-500 hover:bg-gray-100 rounded-full transition-colors"
                 >
