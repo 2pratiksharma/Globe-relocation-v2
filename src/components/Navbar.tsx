@@ -54,7 +54,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0" aria-label="Go to Home">
             {/* Using the existing logo or placeholder. Adjust width/height as needed */}
-            <Image src={'https://ik.imagekit.io/khibl45oa/ChatGPT%20Image%20Jun%2030,%202026,%2001_18_45%20AM.png} alt="Logo" width={180} height={60} className="object-contain" />
+            <Image src={'https://ik.imagekit.io/khibl45oa/ChatGPT%20Image%20Jun%2030,%202026,%2001_18_45%20AM.png'} alt="Logo" width={180} height={60} className="object-contain" />
           </Link>
 
           {/* Desktop Navigation */}

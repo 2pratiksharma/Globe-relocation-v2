@@ -6,7 +6,12 @@ const nextConfig: NextConfig = {
 
   // Image optimization for page speed
   images: {
-    domains: ['randomuser.me', 'images.unsplash.com','https://imagekit.io/','ik.imagekit.io'], // Allow images from these domains
+    remotePatterns: [
+      { protocol: 'https', hostname: 'randomuser.me' },
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: 'imagekit.io' },
+      { protocol: 'https', hostname: 'ik.imagekit.io' },
+    ], // Allow images from these domains
     formats: ['image/avif', 'image/webp'], // Modern image formats for better compression
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048], // Responsive breakpoints
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384], // Image sizes for srcset

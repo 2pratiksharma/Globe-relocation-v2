@@ -1979,7 +1979,7 @@ export default function Home() {
                 </h3>
 
                 <p className="text-gray-900 font-semibold text-[14px] leading-relaxed">
-                  Moving to a new home, office, or transporting vehicles can feel overwhelming. At <span className="font-bold">Globe Relocation Packers and Movers Bangalore Bangalore</span>, we are committed to making your relocation journey smooth, secure, and stress-free. Whether shifting locally or relocating all over India, our team handles every aspect of your move with extreme care and precision.
+                  Moving to a new home, office, or transporting vehicles can feel overwhelming. At <span className="font-bold">Globe Relocation Packers and Movers Bangalore</span>, we are committed to making your relocation journey smooth, secure, and stress-free. Whether shifting locally or relocating all over India, our team handles every aspect of your move with extreme care and precision.
                 </p>
 
                 <p className="text-gray-500 text-[13px] leading-relaxed">
