@@ -41,7 +41,7 @@ export default function Footer() {
           {/* Column 1 */}
           <div className="space-y-6 lg:pr-4">
             <div>
-              <Image src={'https://ik.imagekit.io/khibl45oa/ChatGPT%20Image%20Jun%2030,%202026,%2001_18_45%20AM.png} alt="Logo" width={220} height={60} className="object-contain w-full" />
+              <Image src={'https://ik.imagekit.io/khibl45oa/ChatGPT%20Image%20Jun%2030,%202026,%2001_18_45%20AM.png'} alt="Logo" width={220} height={60} className="object-contain w-full" />
                 < p className="text-[12px] md:text-[13px] font-medium leading-relaxed text-white mt-2">
                 Safe. Secure. Sincere. Your trusted moving partner for a hassle-free relocation experience.
               </p>
