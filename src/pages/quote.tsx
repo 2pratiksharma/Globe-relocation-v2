@@ -35,7 +35,7 @@ export default function QuotePage() {
     const bedrooms = formData.get("bedrooms")?.toString() ?? "";
     const notes = formData.get("notes")?.toString() ?? "";
 
-    const url = new URL("https://wa.me/917988859067");
+    const url = new URL("https://wa.me/918000189153");
     const lines = [
       "Hello Globe Relocation Packers and Movers Banglore Banglore, I need a quote for shifting.",
       `Name: ${name}`,
@@ -237,7 +237,7 @@ export default function QuotePage() {
             </motion.p>
             <motion.div {...fadeUp} className="mt-6">
               <a
-                href="tel:+917988859067"
+                href="tel:+918000189153"
                 className="rounded-full border border-[rgba(0, 0, 0, 0.12)] bg-[rgba(255, 255, 255, 0.8)] px-6 py-3 text-sm uppercase tracking-[0.28em] text-secondary hover:text-accent"
               >
                 Tap to Call

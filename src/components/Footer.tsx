@@ -9,7 +9,7 @@ const quickLinks = [
   { href: "/services", label: "Our Services" },
   { href: "/about", label: "About Us" },
   { href: "/locations", label: "Our Branches" },
-  { href: "https://wa.me/917988859067?text=Hello%20Globe%20Relocation%20Packers%20and%20Movers%2C%20I%20would%20like%20to%20track%20my%20shipment.%20My%20booking%20details%20are%3A", label: "Track Shipment", external: true },
+  { href: "https://wa.me/918000189153?text=Hello%20Globe%20Relocation%20Packers%20and%20Movers%2C%20I%20would%20like%20to%20track%20my%20shipment.%20My%20booking%20details%20are%3A", label: "Track Shipment", external: true },
   { href: "/testimonials", label: "Testimonials" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact Us" },
@@ -42,7 +42,7 @@ export default function Footer() {
           <div className="space-y-6 lg:pr-4">
             <div>
               <Image src={'https://ik.imagekit.io/khibl45oa/ChatGPT%20Image%20Jun%2030,%202026,%2001_18_45%20AM.png'} alt="Logo" width={220} height={60} className="object-contain w-full" />
-                < p className="text-[12px] md:text-[13px] font-medium leading-relaxed text-white mt-2">
+              < p className="text-[12px] md:text-[13px] font-medium leading-relaxed text-white mt-2">
                 Safe. Secure. Sincere. Your trusted moving partner for a hassle-free relocation experience.
               </p>
             </div>
@@ -122,16 +122,16 @@ export default function Footer() {
                 <div className="w-[36px] h-[36px] rounded-full bg-white/10 flex items-center justify-center shrink-0 shadow-sm">
                   <FaPhoneAlt className="text-[#fca311] text-[14px]" />
                 </div>
-                <a href="tel:+9179888 59067" className="text-[13px] font-bold text-white hover:text-blue-200 transition-colors">
-                  +91 79888 59067
+                <a href="tel:+9180001 89153" className="text-[13px] font-bold text-white hover:text-blue-200 transition-colors">
+                  +91 80001 89153
                 </a>
               </li>
               <li className="flex items-center gap-4">
                 <div className="w-[36px] h-[36px] rounded-full bg-white/10 flex items-center justify-center shrink-0 shadow-sm">
                   <FaPhoneAlt className="text-[#fca311] text-[14px]" />
                 </div>
-                <a href="tel:+9179888 59067" className="text-[13px] font-bold text-white hover:text-blue-200 transition-colors">
-                  +91 79888 59067
+                <a href="tel:+9180001 89153" className="text-[13px] font-bold text-white hover:text-blue-200 transition-colors">
+                  +91 80001 89153
                 </a>
               </li>
               <li className="flex items-center gap-4">

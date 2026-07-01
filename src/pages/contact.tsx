@@ -41,7 +41,7 @@ export default function Contact() {
     const moveDate = formData.get("moveDate")?.toString() ?? "";
     const details = formData.get("details")?.toString() ?? "";
 
-    const url = new URL("https://wa.me/917988859067");
+    const url = new URL("https://wa.me/918000189153");
     const message = `Hello Globe Relocation Packers and Movers Banglore Banglore, I need a quote for shifting. Here are my details: Name: ${name}, Moving From: ${moveFrom}, Moving To: ${moveTo}, Preferred Date: ${moveDate}, Additional Details: ${details}`;
     url.searchParams.set("text", message);
     window.open(url.toString(), "_blank");
@@ -112,7 +112,7 @@ export default function Contact() {
                   <div className="relative pl-6 border-l-2 border-[#0A58CA]/20 hover:border-[#0A58CA] transition-colors">
                     <p className="text-[#0A58CA] font-heading font-bold text-lg mb-1">Head Office</p>
                     <p className="mb-2">55, 1st Cross Rd, Prasanth Layout, Prasanth Extension, Whitefield, Bengaluru, Karnataka 560066</p>
-                    <p className="font-medium text-[#001126]">Primary: +91 79888 59067</p>
+                    <p className="font-medium text-[#001126]">Primary: +91 80001 89153</p>
                     <p className="font-medium text-[#001126]">Secondary: +91 72399 47013</p>
                   </div>
                 </div>

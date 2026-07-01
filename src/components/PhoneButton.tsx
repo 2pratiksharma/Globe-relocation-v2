@@ -7,7 +7,7 @@ type PhoneButtonProps = {
   className?: string;
 };
 
-export default function PhoneButton({ number = "+917988859067", className = "" }: PhoneButtonProps) {
+export default function PhoneButton({ number = "+918000189153", className = "" }: PhoneButtonProps) {
   const router = useRouter();
   const [dismissed, setDismissed] = useState(false);
 

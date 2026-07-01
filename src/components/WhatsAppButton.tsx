@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 import { IoLogoWhatsapp } from "react-icons/io";
 
-const whatsappNumber = "917988859067";
+const whatsappNumber = "918000189153";
 
 export default function WhatsAppButton() {
   const router = useRouter();

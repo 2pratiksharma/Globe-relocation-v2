@@ -85,7 +85,7 @@ export default function TestimonialsPage() {
           description: "Globe Relocation Packers and Movers Banglore Banglore provides domestic and international packers and movers solutions spanning Bangalore, Hyderabad, Delhi NCR, and pan-India to worldwide destinations.",
           url: "https://globerelo.in",
           logo: "https://globerelo.in/img/logo.jpeg",
-          telephone: "+91 79888 59067",
+          telephone: "+91 80001 89153",
           areaServed: ["Bangalore", "Hyderabad", "Delhi NCR", "Mumbai", "India", "Global"],
         }}
       />

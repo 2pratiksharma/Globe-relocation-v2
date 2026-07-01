@@ -33,7 +33,7 @@ export const LOCATIONS: Record<string, CityLocation> = {
         heroDescription:
             "Experience stress-free relocation with Globe Relocation, the most trusted packers and movers in Bangalore. Whether you are moving locally within HSR Layout and Koramangala or shifting long-distance from Whitefield to Electronic City, our expert team ensures the safety of your belongings. We specialize in household shifting, corporate office relocation, and vehicle transportation with upfront pricing starting at just ₹2999.",
         priceStarting: "₹2999",
-        phoneNumber: "+917988859067",
+        phoneNumber: "+918000189153",
         coordinates: {
             lat: 12.9716,
             lng: 77.5946,
@@ -123,7 +123,7 @@ export const LOCATIONS: Record<string, CityLocation> = {
         heroDescription:
             "Globe Relocation Packers and Movers Banglore Banglore brings world-class relocation expertise to Hyderabad. From Hitech City to Banjara Hills, Gachibowli to Secunderabad, we handle household moves, corporate relocations, and international shipping with precision. Our certified teams use premium packing materials and real-time tracking to ensure stress-free moves starting at ₹2999.",
         priceStarting: "₹2999",
-        phoneNumber: "+917988859067",
+        phoneNumber: "+918000189153",
         coordinates: {
             lat: 17.385,
             lng: 78.4867,
@@ -198,7 +198,7 @@ export const LOCATIONS: Record<string, CityLocation> = {
         heroDescription:
             "Globe Relocation Packers and Movers Banglore Banglore offers comprehensive moving solutions across Delhi NCR—from Connaught Place to Cyber City Gurgaon, Dwarka to Noida Expressway. Our expert teams handle residential moves, corporate relocations, and international shipping with military precision. With bonded warehouses, climate-controlled transport, and 24/7 tracking, your move is in safe hands. Pricing starts at ₹2999.",
         priceStarting: "₹2999",
-        phoneNumber: "+917988859067",
+        phoneNumber: "+918000189153",
         coordinates: {
             lat: 28.7041,
             lng: 77.1025,
@@ -279,7 +279,7 @@ export const LOCATIONS: Record<string, CityLocation> = {
         heroDescription:
             "Globe Relocation Packers and Movers Banglore Banglore provides reliable and professional relocation services in Kolar. Whether you are moving within Kolar city, relocating to Kolar Gold Fields (KGF), or moving to other parts of Karnataka, our expert team ensures your belongings are handled with care. Transparent pricing starts at just ₹2999.",
         priceStarting: "₹2999",
-        phoneNumber: "+917988859067",
+        phoneNumber: "+918000189153",
         coordinates: {
             lat: 13.1367,
             lng: 78.1292,
@@ -339,7 +339,7 @@ const createCity = (
         heroTitle: `Best Packers and Movers in ${name}`,
         heroDescription: `Globe Relocation Packers and Movers Banglore Banglore delivers reliable, stress-free relocation across ${name}, ${state}. From household shifting and office relocation to car and bike transportation, our trained crew handles every move with premium packing, GPS-tracked transit, and transparent pricing starting at just ₹2999.`,
         priceStarting: "₹2999",
-        phoneNumber: "+917988859067",
+        phoneNumber: "+918000189153",
         coordinates,
         highlights: [
             `100% Safe & Secure Household Shifting in ${name}`,

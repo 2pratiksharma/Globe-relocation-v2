@@ -87,7 +87,7 @@ const WA_SVG = (
 );
 
 function waUrl(message: string) {
-    const u = new URL("https://wa.me/917988859067");
+    const u = new URL("https://wa.me/918000189153");
     u.searchParams.set("text", message);
     return u.toString();
 }
@@ -139,7 +139,7 @@ function HeroSection({ badge, h1, description, priceStarting, waMessage, default
                         const fromCity = formData.get("fromCity")?.toString() ?? "";
                         const toCity = formData.get("toCity")?.toString() ?? "";
 
-                        const base = new URL("https://wa.me/917988859067");
+                        const base = new URL("https://wa.me/918000189153");
                         const message = `Hello Globe Relocation Packers and Movers Banglore Banglore, I need a quote for shifting.\n\n👤 Name: ${name}\n📞 Phone: ${phone}\n✉️ Email: ${email}\n📍 From: ${fromCity}\n📍 To: ${toCity}\n📦 Type: ${service}\n\nPlease help me plan my move.`;
                         base.searchParams.set("text", message);
                         window.open(base.toString(), "_blank");
@@ -476,13 +476,13 @@ function CityPage({ city }: { city: CityLocation }) {
                                         Chat on WhatsApp
                                     </a>
                                     <a
-                                        href="tel:+917988859067"
+                                        href="tel:+918000189153"
                                         className="flex items-center justify-center gap-2 w-full border-2 border-white/30 hover:border-white text-white font-bold py-3.5 rounded-xl transition-all text-sm"
                                     >
                                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                             <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 4.18 2 2 0 015 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
                                         </svg>
-                                        +91 79888 59067
+                                        +91 80001 89153
                                     </a>
                                     <div className="mt-6 pt-5 border-t border-white/10 space-y-3">
                                         {["IBA Approved", "Transit Insurance", "24×7 Support", "Pan India Coverage"].map((badge) => (
@@ -536,7 +536,7 @@ function CityPage({ city }: { city: CityLocation }) {
                                     </ul>
                                 </div>
                                 <div className="pt-6 border-t border-gray-200 mt-auto">
-                                    <p className="font-bold text-[#001126]">Primary Contact: <a href="tel:+917988859067" className="text-[#0A58CA] hover:underline">+91 79888 59067</a></p>
+                                    <p className="font-bold text-[#001126]">Primary Contact: <a href="tel:+918000189153" className="text-[#0A58CA] hover:underline">+91 80001 89153</a></p>
                                 </div>
                             </motion.div>
 
@@ -1290,7 +1290,7 @@ function LocalityPage({ city, locality, content }: { city: CityLocation; localit
                                 )}
 
                                 <div className="pt-2">
-                                    <p className="font-bold text-[#001126]">Primary Contact: <a href="tel:+917988859067" className="text-[#0A58CA] hover:underline">+91 79888 59067</a></p>
+                                    <p className="font-bold text-[#001126]">Primary Contact: <a href="tel:+918000189153" className="text-[#0A58CA] hover:underline">+91 80001 89153</a></p>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 h-[300px] rounded-xl overflow-hidden bg-gray-200 shadow-inner">

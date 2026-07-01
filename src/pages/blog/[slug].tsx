@@ -15,7 +15,7 @@ export default function BlogPostPage({ post }: { post: BlogPost }) {
     const author = getAuthor(post.author);
 
     const handleWhatsAppQuote = () => {
-        const url = new URL("https://wa.me/917988859067");
+        const url = new URL("https://wa.me/918000189153");
         const message = `Hello Globe Relocation, I read your blog post "${post.title}" and I need a quote for shifting.`;
         url.searchParams.set("text", message);
         window.open(url.toString(), "_blank");

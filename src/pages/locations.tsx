@@ -279,7 +279,7 @@ export default function LocationsPage() {
                 </motion.p>
                 <motion.div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4" {...fadeUp} transition={{ delay: 0.35, ease: easeStandard }}>
                   <a
-                    href="https://wa.me/917988859067?text=Hello%20Globe%20Relocation%2C%20I%20need%20a%20quote%20for%20shifting.%20My%20city%20is%20not%20listed%20on%20your%20website."
+                    href="https://wa.me/918000189153?text=Hello%20Globe%20Relocation%2C%20I%20need%20a%20quote%20for%20shifting.%20My%20city%20is%20not%20listed%20on%20your%20website."
                     target="_blank"
                     rel="noreferrer"
                     className="w-full sm:w-auto bg-[#16a34a] hover:bg-[#15803d] text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 text-[15px] shadow-lg shadow-[#16a34a]/30 flex items-center justify-center gap-2 hover:-translate-y-0.5"

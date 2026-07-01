@@ -798,7 +798,7 @@ function BookingWizard() {
     ].join("\n");
 
     window.open(
-      `https://wa.me/917988859067?text=${encodeURIComponent(message)}`,
+      `https://wa.me/918000189153?text=${encodeURIComponent(message)}`,
       "_blank"
     );
   };
@@ -969,7 +969,7 @@ function BookingWizard() {
                     <span className="text-[16px] font-extrabold">Add your Inventory</span>
                   </button>
                   <a
-                    href="tel:+917988859067"
+                    href="tel:+918000189153"
                     className="shrink-0 flex items-center gap-2 border border-[#0A58CA]/30 text-[#0A58CA] text-[12px] font-bold px-3 py-1.5 rounded-lg hover:bg-[#0A58CA] hover:text-white transition-colors"
                   >
                     <FaPhoneAlt size={11} /> Get a call
@@ -1466,7 +1466,7 @@ const homePageSchema = [
     "@id": `${SITE_URL}/#organization`,
     name: SITE_NAME,
     url: `${SITE_URL}/`,
-    telephone: "+91 79888 59067",
+    telephone: "+91 80001 89153",
     image: "https://ik.imagekit.io/khibl45oa/home_hero.png?tr=w-1200,h-630,fo-auto",
     priceRange: "₹₹",
     address: {
@@ -1620,7 +1620,7 @@ export default function Home() {
                   ? new Date(`${date}T00:00:00`).toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" })
                   : "";
 
-                const base = new URL("https://wa.me/917988859067");
+                const base = new URL("https://wa.me/918000189153");
                 const message = [
                   "Hello Globe Relocation, I'd like a quote for shifting.",
                   "",
@@ -2023,7 +2023,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="text-[9px] font-bold text-gray-500 uppercase tracking-widest mb-1">Talk to an expert</p>
-                      <a href="tel:+917988859067" className="text-[#002d5c] font-extrabold text-lg hover:text-[#0A58CA] transition-colors">+91 79888 59067</a>
+                      <a href="tel:+918000189153" className="text-[#002d5c] font-extrabold text-lg hover:text-[#0A58CA] transition-colors">+91 80001 89153</a>
                     </div>
                   </div>
                 </div>
@@ -2244,7 +2244,7 @@ export default function Home() {
               <div className="relative z-10 w-full bg-[#002d5c]/80 py-2 rounded-xl backdrop-blur-sm">
                 <h4 className="text-white text-[22px] md:text-[28px] font-extrabold mb-3 tracking-wide">Still have questions? We&apos;re here to help!</h4>
                 <p className="text-blue-50 text-[15px] font-medium flex flex-wrap items-center justify-center gap-2">
-                  Call us at <a href="tel:+917988859067" className="font-extrabold text-white border-b border-dashed border-white/50 pb-0.5 hover:text-blue-200 transition-colors">+91 79888 59067</a> or email us at <a href="mailto:info@globerelocation.com" className="font-extrabold text-white border-b border-dashed border-white/50 pb-0.5 hover:text-blue-200 transition-colors">info@globerelocation.com</a>
+                  Call us at <a href="tel:+918000189153" className="font-extrabold text-white border-b border-dashed border-white/50 pb-0.5 hover:text-blue-200 transition-colors">+91 80001 89153</a> or email us at <a href="mailto:info@globerelocation.com" className="font-extrabold text-white border-b border-dashed border-white/50 pb-0.5 hover:text-blue-200 transition-colors">info@globerelocation.com</a>
                 </p>
               </div>
             </motion.div>
@@ -2255,10 +2255,10 @@ export default function Home() {
         <>
           {/* Desktop Floating Action Buttons */}
           <div className="hidden md:flex fixed bottom-8 right-6 z-50 flex-col gap-4">
-            <a href="tel:+917988859067" className="w-12 h-12 bg-[#00458b] text-white rounded-full flex items-center justify-center shadow-lg shadow-[#00458b]/30 hover:scale-110 transition-transform">
+            <a href="tel:+918000189153" className="w-12 h-12 bg-[#00458b] text-white rounded-full flex items-center justify-center shadow-lg shadow-[#00458b]/30 hover:scale-110 transition-transform">
               <FaPhoneAlt size={20} />
             </a>
-            <a href="https://wa.me/917988859067" target="_blank" rel="noreferrer" className="w-12 h-12 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg shadow-[#25D366]/30 hover:scale-110 transition-transform">
+            <a href="https://wa.me/918000189153" target="_blank" rel="noreferrer" className="w-12 h-12 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg shadow-[#25D366]/30 hover:scale-110 transition-transform">
               <FaWhatsapp size={24} />
             </a>
             <a href="/contact" className="w-12 h-12 bg-[#fca311] text-white rounded-full flex items-center justify-center shadow-lg shadow-[#fca311]/30 hover:scale-110 transition-transform">
@@ -2268,13 +2268,13 @@ export default function Home() {
 
           {/* Mobile Sticky Bottom Bar */}
           <div className="md:hidden fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 grid grid-cols-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
-            <a href="tel:+917988859067" className="flex flex-col items-center justify-center py-2 gap-1 border-r border-gray-100 hover:bg-gray-50 transition-colors">
+            <a href="tel:+918000189153" className="flex flex-col items-center justify-center py-2 gap-1 border-r border-gray-100 hover:bg-gray-50 transition-colors">
               <div className="w-8 h-8 bg-[#00458b] text-white rounded-full flex items-center justify-center">
                 <FaPhoneAlt size={14} />
               </div>
               <span className="text-[11px] font-bold text-gray-800">Call Now</span>
             </a>
-            <a href="https://wa.me/917988859067" target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center py-2 gap-1 border-r border-gray-100 hover:bg-gray-50 transition-colors">
+            <a href="https://wa.me/918000189153" target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center py-2 gap-1 border-r border-gray-100 hover:bg-gray-50 transition-colors">
               <div className="w-8 h-8 bg-[#25D366] text-white rounded-full flex items-center justify-center">
                 <FaWhatsapp size={16} />
               </div>
@@ -2399,13 +2399,13 @@ export default function Home() {
                 {/* Footer CTAs */}
                 <div className="shrink-0 border-t border-gray-100 bg-white px-4 md:px-8 py-4 flex flex-col sm:flex-row gap-3">
                   <a
-                    href="tel:+917988859067"
+                    href="tel:+918000189153"
                     className="flex-1 bg-[#0A58CA] hover:bg-[#004bb5] text-white font-bold py-3 rounded-xl text-sm flex items-center justify-center gap-2 transition-colors shadow-lg shadow-[#0A58CA]/30"
                   >
                     <FaPhoneAlt size={14} /> Call for Best Quote
                   </a>
                   <a
-                    href="https://wa.me/917988859067?text=Hi%20Globe%20Relocation%2C%20I%20want%20a%20quote%20for%20shifting%20from%20Bangalore%20with%20the%2010%25%20offer."
+                    href="https://wa.me/918000189153?text=Hi%20Globe%20Relocation%2C%20I%20want%20a%20quote%20for%20shifting%20from%20Bangalore%20with%20the%2010%25%20offer."
                     target="_blank"
                     rel="noreferrer"
                     className="flex-1 bg-[#25D366] hover:bg-[#1eb858] text-white font-bold py-3 rounded-xl text-sm flex items-center justify-center gap-2 transition-colors shadow-lg shadow-[#25D366]/30"

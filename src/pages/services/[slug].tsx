@@ -57,7 +57,7 @@ export default function ServicePage({ service, allServices }: ServicePageProps) 
   };
 
   const handleWhatsAppQuote = () => {
-    const url = new URL("https://wa.me/917988859067");
+    const url = new URL("https://wa.me/918000189153");
     const message = `Hello Globe Relocation Packers and Movers Banglore Banglore, I am interested in your ${service.title} service. Please help me with a quote.`;
     url.searchParams.set("text", message);
     window.open(url.toString(), "_blank");
@@ -83,7 +83,7 @@ export default function ServicePage({ service, allServices }: ServicePageProps) 
           provider: {
             "@type": "MovingCompany",
             name: "Globe Relocation Packers and Movers Banglore Banglore",
-            telephone: "+91 79888 59067",
+            telephone: "+91 80001 89153",
             areaServed: "India",
           },
         }}
@@ -351,7 +351,7 @@ export default function ServicePage({ service, allServices }: ServicePageProps) 
                       </p>
 
                       <div className="flex flex-col gap-3">
-                        <a href="tel:+917988859067" className="flex items-center justify-center gap-2 bg-white text-[#00458b] py-3 px-4 rounded-xl font-bold hover:bg-gray-50 transition-colors">
+                        <a href="tel:+918000189153" className="flex items-center justify-center gap-2 bg-white text-[#00458b] py-3 px-4 rounded-xl font-bold hover:bg-gray-50 transition-colors">
                           <FaPhone className="text-lg" />
                           +91 7988859067
                         </a>

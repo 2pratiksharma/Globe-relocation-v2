@@ -22,11 +22,11 @@ export const COMPANY = {
     totalReviews: "1,200+",
 
     // ─── Contact ───
-    phone: "+91 79888 59067",
-    phoneRaw: "+917988859067",
+    phone: "+91 80001 89153",
+    phoneRaw: "+918000189153",
     email: "support@globerelo.in",
     emailInfo: "info@globerelocation.com",
-    whatsappNumber: "917988859067",
+    whatsappNumber: "918000189153",
 
     // ─── Address ───
     address: {

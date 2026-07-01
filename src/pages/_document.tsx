@@ -37,7 +37,7 @@ export default function Document() {
               url: "https://globerelo.in",
               logo: "https://ik.imagekit.io/khibl45oa/Logo.png",
               image: "https://ik.imagekit.io/khibl45oa/home_hero.png?tr=w-1200,h-630,fo-auto",
-              telephone: "+91 79888 59067",
+              telephone: "+91 80001 89153",
               areaServed: [
                 "Bangalore",
                 "Hyderabad",

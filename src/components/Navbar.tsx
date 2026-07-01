@@ -17,7 +17,7 @@ const navLinks = [
   { href: "/contact", label: "Contact Us" }
 ];
 
-const callNumber = "+91 79888 59067";
+const callNumber = "+91 80001 89153";
 const email = "info@globerelocation.com";
 
 export default function Navbar() {
@@ -130,7 +130,7 @@ export default function Navbar() {
               {/* Sidebar Header */}
               <div className="flex items-center justify-between p-5 border-b border-gray-200">
                 <Image src={'https://ik.imagekit.io/khibl45oa/ChatGPT%20Image%20Jun%2030,%202026,%2001_18_45%20AM.png'} alt="Logo" width={140} height={45} className="object-contain w-full" />
-                  < button
+                < button
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="p-2 text-gray-500 hover:bg-gray-100 rounded-full transition-colors"
                 >

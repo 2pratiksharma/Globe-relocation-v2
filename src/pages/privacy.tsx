@@ -102,7 +102,7 @@ export default function PrivacyPolicy() {
                 <div className="mt-4 p-6 rounded-2xl border border-[rgba(0, 0, 0, 0.08)] bg-[rgba(255, 255, 255, 0.6)]">
                   <p className="font-heading text-primary">Globe Relocation Packers and Movers Banglore Banglore</p>
                   <p>Email: info@globerelo.in</p>
-                  <p>Phone: +91 79888 59067</p>
+                  <p>Phone: +91 80001 89153</p>
                   <p>Address: Bangalore, Karnataka, India</p>
                 </div>
               </section>
